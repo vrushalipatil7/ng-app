@@ -9,7 +9,8 @@ import { RecipeListComponent } from './recipe-list.component';
 export class recipeItemComponent implements OnInit {
 @Input() recipe: recipe;
 recipeId: number;
-  constructor() { }
+  constructor() { 
+  }
 
   ngOnInit() {
   }
